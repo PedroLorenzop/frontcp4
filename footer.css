@@ -7,3 +7,17 @@
 .me-3 {
     margin-right: 1rem; /* Espaçamento entre ícones */
 }
+.footer {
+    background-color: #8D9B8A; /* Ajuste a cor conforme necessário */
+    color: #000; 
+}
+.footer a {
+    color: #000; /* Cor dos links */
+    text-decoration: none; /* Remover sublinhado */
+}
+.footer a:hover {
+    color: #333; /* Cor ao passar o mouse */
+}
+.footer hr {
+    border: 0.5px solid #b3b3b3; /* Linha divisória */
+}

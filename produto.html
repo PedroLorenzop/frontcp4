@@ -34,6 +34,7 @@
 
 
     <link href="contato.css">
+    <link rel="stylesheet" href="footer.css">
 
     <!--COLOCAR O LINK DO CSS AQUI-->
 </head>
@@ -163,6 +164,15 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
+    <script>
+        // Carrega o footer de outro arquivo HTML
+        fetch('footer.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('footer-placeholder').innerHTML = data;
+            });
+    </script>
+    <div id="footer-placeholder"></div>
 </body>
 
 

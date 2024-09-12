@@ -38,7 +38,7 @@ body {
     width: 110%;
 }
 
-.section-cards{
+.section-cards {
     margin-bottom: 5%;
 }
 
@@ -47,7 +47,7 @@ body {
     margin-left: 18%;
     margin-right: 18%;
 }
-.card-text{
+.card-text {
     font-weight: 400;
     color: rgb(139, 139, 139);
 }
@@ -56,7 +56,7 @@ body {
     font-size: 14px;
     border-radius: 100px;
 }
-#icons-cards{
+#icons-cards {
     background-color: #6A7B54;
     color:white;
     border-radius: 20px;
@@ -74,20 +74,11 @@ body {
     font-weight: bold;  
 }
 
-
-
-
-
-
 .second-slide {
     padding: 100px, 0px, 100px, 0px;
 }
 
-
-
-
-
-.carousel-caption{
+.carousel-caption {
     background-image: url('image.png');
 } 
 
